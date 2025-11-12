@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG SUN</title>
+</head>
+<body>
+<svg width="200px" height="200px" viewBox="-15 -15 30 30">
+<circle r="6"/>
+<path id="ray" stroke="black" stroke-width="2" stroke-linecap="round"
+ d="M 0,9 L 0,14 "/>
+ <use href="#ray" transform="rotate(180)" />
+ <use href="#ray" transform="rotate(90)" />
+ <use href="#ray" transform="rotate(-90)" />
+ <use href="#ray" transform="rotate(45)" />
+ <use href="#ray" transform="rotate(-45)" />
+ <use href="#ray" transform="rotate(-135)" />
+  <use href="#ray" transform="rotate(135)" />
+
+
+</svg>
+</body>
+</html>
